@@ -4,4 +4,4 @@
 f_name=input("Enter file name:")
 fh=open(f_name)
 for L in fh:
-    print(L)
+    print(L.rstrip().upper())

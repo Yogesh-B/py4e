@@ -9,7 +9,3 @@ for c in text:
 tmp_str=text[index:]
 num=float(tmp_str)
 print(num)
-        
-
-
-
