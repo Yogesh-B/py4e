@@ -18,5 +18,5 @@ for i in range(7):
     html1=urllib.request.urlopen(url1,context=ctx).read()
     soup1=BeautifulSoup(html1,'html.parser')
     tags=soup1('a')
-    url1=tags[17].get('href',None)
-    print(tags[17].contents[0],end=' ')
+    url1=tags[1].get('href',None)
+    print(tags[1].contents[0],end=' ')
